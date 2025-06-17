@@ -52,9 +52,9 @@ public class Main {
             System.out.println("Le Net À Payer est :" +NAP);
 
             System.out.println("-----------------------------------Facture-------------------------------------");
-            System.out.println("Le montant brut|\t\t Le montant de la TVA|\t\t Le Net À Payer ");
+            System.out.println("Le montant brut|\t\t Le Taux de la TVA\t\t Le montant de la TVA|\t\t Le Net À Payer ");
             System.out.println("--------------------------------------------------------------------------------------------------------------------------------------");
-            System.out.println(mb +"\t|\t" + mtTva +"\t|\t" + NAP);
+            System.out.println(mb +"\t|\t" +Ttva + "\t|\t" + mtTva +"\t|\t" + NAP);
             System.out.println("--------------------------------------------------------------------------------------------------------------------------------------");
             System.out.println("Merci pour votre fidélité");
         } else if (choice==2) {
