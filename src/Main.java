@@ -50,13 +50,17 @@ public class Main {
 
             double NAP = mb + mtTva;
             System.out.println("Le Net À Payer est :" +NAP);
-
-            System.out.println("-----------------------------------Facture-------------------------------------");
-            System.out.println("Le montant brut|\t\t Le Taux de la TVA\t\t Le montant de la TVA|\t\t Le Net À Payer ");
-            System.out.println("--------------------------------------------------------------------------------------------------------------------------------------");
-            System.out.println(mb +"\t|\t" +Ttva + "\t|\t" + mtTva +"\t|\t" + NAP);
-            System.out.println("--------------------------------------------------------------------------------------------------------------------------------------");
-            System.out.println("Merci pour votre fidélité");
+            System.out.println("------------------------------------------------");
+            System.out.println("                       FACTURE                       ");
+            System.out.println("------------------------------------------------");
+            System.out.println("|Le Montant brut           |         " +mb);
+            System.out.println("------------------------------------------------");
+            System.out.println("|Le taux de la TVA         |         " +Ttva);
+            System.out.println("------------------------------------------------");
+            System.out.println("|Le Montant de la TVA      |         " +mtTva );
+            System.out.println("------------------------------------------------");
+            System.out.println("|Le montant total          |         " +NAP );
+            System.out.println("------------------------------------------------");
         } else if (choice==2) {
             System.out.println("Merci");
         }
